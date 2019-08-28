@@ -33,9 +33,6 @@ public class CalculaMediaAlgoritmos {
         System.out.println("nota 2:");
         nota2 = sc.nextDouble();
 
-        System.out.println("Coloque a nota 1:");
-        nota1 = sc.nextDouble();
-        
         media = (nota1*p1) + (nota2+p2);
         
         System.out.println("A média: " + media);
